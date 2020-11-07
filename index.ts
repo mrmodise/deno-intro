@@ -1,3 +1,3 @@
 import {getPeople} from './people.ts';
 
-console.log(await getPeople("https://swapi.dev/api/people/1/"));
+console.log(await getPeople(Deno.args[0]));
